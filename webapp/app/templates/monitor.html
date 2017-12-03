@@ -1,0 +1,319 @@
+{% extends "layout.html" %}
+
+{% block head %}
+        {{ super() }}
+{% endblock %}
+
+{% block content %}
+
+	<div class="ui grid container">
+		<div class="three wide column">
+			<div class="ui fluid card">
+				<div class="image">
+					<img src="static/img/kristy.png">
+				</div>
+				<div class="content">
+					<a class="header">Kristy</a>
+					<div class="meta">
+						<span class="date">Patient no. 2019312-291</span>
+					</div>
+					<div class="ui grid description">
+						<div class="three wide column">
+							<b>Sex</b><br>
+							<b>D.o.B</b><br>
+							<b>Weight</b><br>
+							<b>City</b><br>
+						</div>
+						<div class="five wide column">
+							Female <br>
+							12/04/1988 <br>
+							75 kg <br>
+							Amsterdam <br>
+						</div>
+						<div class="four wide column">
+							<b>Age</b><br>
+							<b>Height</b><br>
+							<b>Nationality</b><br>
+						</div>
+						<div class="four wide column">
+							38 y.o. <br>
+							179 cm <br>
+							Dutch <br>
+						</div>						
+					</div>
+					<div class="ui grid description">
+						<div class="eight wide column">
+							<b>Emergency contact</b>
+						</div>
+						<div class="eight wide column">
+							+31 6033 7845 
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		jembut
+		<div class="five wide column">
+			konto
+			<div class="ui fluid action input">
+				<input type="text" placeholder="Search medical records...">
+				<div class="ui button">Search</div>
+			</div>
+			<div class="ui top attached tabular menu">
+				<a class="item active" data-tab="all">All records</a>
+				<a class="item" data-tab="medication">Medication</a>
+				<a class="item" data-tab="problem">Problems</a>
+				<a class="item" data-tab="hospitalization">Hospitalization</a>
+				<a class="item" data-tab="pshx">PSHx</a>
+			</div>
+			<div class="ui bottom attached tab segment active" data-tab="all">
+				<div class="ui feed">
+				    <div class="event">
+				        <div class="label">
+				            <img src="static/img/elliot.jpg">
+				        </div>
+				        <div class="content">
+				            <div class="summary">
+				                <a class="user">
+				                    dr. Elliot Fu
+				                </a> added <a class="user">Kristy</a> as a friend
+				                <div class="date">
+				                    1 Hour Ago
+				                </div>
+				            </div>
+				            <div class="meta">
+				                <a class="like">
+				                    <i class="folder open outline icon"></i> see more
+				                </a>
+				            </div>
+				        </div>
+				    </div>
+				    <div class="event">
+				        <div class="label">
+				            <img src="static/img/helen.jpg">
+				        </div>
+				        <div class="content">
+				            <div class="summary">
+				                <a>Helen Troy</a> added <a>2 new illustrations</a>
+				                <div class="date">
+				                    4 days ago
+				                </div>
+				            </div>
+				            <div class="extra images">
+				                <a><img src="static/img/image.png"></a>
+				                <a><img src="static/img/image.png"></a>
+				            </div>
+				            <div class="meta">
+				                <a class="like">
+				                    <i class="folder open outline icon"></i> see more
+				                </a>
+				            </div>
+				        </div>
+				    </div>
+				</div>
+			</div>
+			<div class="ui bottom attached tab segment" data-tab="medication">
+				<div class="ui feed">
+			    	<div class="event">
+			    	    <div class="label">
+			    	        <img src="static/img/jenny.jpg">
+			    	    </div>
+			    	    <div class="content">
+			    	        <div class="summary">
+			    	            <a class="user">
+			    	                Jenny Hess
+			    	            </a> added you as a friend
+			    	            <div class="date">
+			    	                2 Days Ago
+			    	            </div>
+			    	        </div>
+			    	        <div class="meta">
+			    	            <a class="like">
+			    	                <i class="folder open outline icon"></i> see more
+			    	            </a>
+			    	        </div>
+			    	    </div>
+			    	</div>
+			    	<div class="event">
+			    	    <div class="label">
+			    	        <img src="static/img/joe.jpg">
+			    	    </div>
+			    	    <div class="content">
+			    	        <div class="summary">
+			    	            <a>Joe Henderson</a> posted on his page
+			    	            <div class="date">
+			    	                3 days ago
+			    	            </div>
+			    	        </div>
+			    	        <div class="extra text">
+			    	            Ours is a life of constant reruns. We're always circling back to where we'd we started, then starting all over again.
+			    	        </div>
+			    	        <div class="meta">
+			    	            <a class="like">
+			    	                <i class="folder open outline icon"></i> see more
+			    	            </a>
+			    	        </div>
+			    	    </div>
+			    	</div>
+			    </div>
+			</div>
+			<div class="ui bottom attached tab segment" data-tab="problem">
+				<div class="ui feed">
+				    <div class="event">
+				        <div class="label">
+				            <img src="static/img/justen.jpg">
+				        </div>
+				        <div class="content">
+				            <div class="summary">
+				                <a>Justen Kitsune</a> added <a>2 new photos</a> of you
+				                <div class="date">
+				                    4 days ago
+				                </div>
+				            </div>
+				            <div class="extra images">
+				                <a><img src="static/img/image.png"></a>
+				                <a><img src="static/img/image.png"></a>
+				            </div>
+				            <div class="meta">
+				                <a class="like">
+				                    <i class="folder open outline icon"></i> see more
+				                </a>
+				            </div>
+				        </div>
+				    </div>
+				</div>
+			</div>
+			<div class="ui bottom attached tab segment" data-tab="hospitalization">
+				<div class="ui feed">
+				    <div class="event">
+				        <div class="label">
+				            <img src="static/img/justen.jpg">
+				        </div>
+				        <div class="content">
+				            <div class="summary">
+				                <a>Justen Kitsune</a> added <a>2 new photos</a> of you
+				                <div class="date">
+				                    4 days ago
+				                </div>
+				            </div>
+				            <div class="extra images">
+				                <a><img src="static/img/image.png"></a>
+				                <a><img src="static/img/image.png"></a>
+				            </div>
+				            <div class="meta">
+				                <a class="like">
+				                    <i class="folder open outline icon"></i> see more
+				                </a>
+				            </div>
+				        </div>
+				    </div>
+				</div>					
+			</div>
+			<div class="ui bottom attached tab segment" data-tab="pshx">
+				<div class="ui feed">
+				    <div class="event">
+				        <div class="label">
+				            <img src="static/img/justen.jpg">
+				        </div>
+				        <div class="content">
+				            <div class="summary">
+				                <a>Justen Kitsune</a> added <a>2 new photos</a> of you
+				                <div class="date">
+				                    4 days ago
+				                </div>
+				            </div>
+				            <div class="extra images">
+				                <a><img src="static/img/image.png"></a>
+				                <a><img src="static/img/image.png"></a>
+				            </div>
+				            <div class="meta">
+				                <a class="like">
+				                    <i class="folder open outline icon"></i> see more
+				                </a>
+				            </div>
+				        </div>
+				    </div>
+				</div>					
+			</div>
+		</div>
+		<div class="eight wide column">
+			<div class="ui top attached clearing segment">
+				<div class="ui left floated header" style="margin: 0">Blood pressure</div>
+				<div class="ui top right attached green big label">Normal</div>
+			</div>
+			<div class="ui attached grid container center aligned segment">	
+				<div class="twelve wide column">
+				</div>
+				<div class="four wide column">
+					<div class="ui huge statistic">
+						<div class="value">
+							77
+						</div>
+						<div class="label">
+							mmHg
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="ui top attached clearing segment">
+				<div class="ui left floated header" style="margin: 0">Pulse rate</div>
+				<div class="ui top right attached green big label">Normal</div>
+			</div>
+			<div class="ui attached grid container center aligned segment">	
+				<div class="twelve wide column">
+				</div>
+				<div class="four wide column">
+					<div class="ui huge statistic">
+						<div class="value">
+							77
+						</div>
+						<div class="label">
+							bpm
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="ui top attached clearing segment">
+				<div class="ui left floated header" style="margin: 0">Oxygen level</div>
+				<div class="ui top right attached orange big label">Beware</div>
+			</div>
+			<div class="ui attached grid container center aligned segment">	
+				<div class="twelve wide column">
+				</div>
+				<div class="four wide column">
+					<div class="ui huge statistic">
+						<div class="value">
+							77
+						</div>
+						<div class="label">
+							% SpO2
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="ui top attached clearing segment">
+				<div class="ui left floated header" style="margin: 0">Temperature</div>
+				<div class="ui top right attached red big label">Danger</div>
+			</div>
+			<div class="ui attached grid container center aligned segment">	
+				<div class="twelve wide column">
+				</div>
+				<div class="four wide column">
+					<div class="ui huge statistic">
+						<div class="value">
+							77
+						</div>
+						<div class="label">
+							Celcius
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+    <script type="text/javascript">
+    	$('.menu .item')
+			.tab()
+		;
+    </script>
+{% endblock %}

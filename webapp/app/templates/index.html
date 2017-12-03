@@ -1,0 +1,144 @@
+{% extends "layout.html" %}
+
+{% block head %}
+{{ super() }}
+{% endblock %}
+
+{% block content %}
+<div class="ui grid container">
+	<div class="eleven wide column">
+		<div class="ui equal width aligned grid">
+			<div class="row" style="margin-bottom: 10px">
+				<div class="column" style="background-color: #228582; padding:10px 10px 10px 10px; margin-left: 13px">
+					<div class="row">
+						<p class="status-small">Operation Phase</p>
+					</div>
+					<div class="row">
+						<div class="center aligned column"><h2 class="status-big">ONGOING</h2></div>
+					</div>
+				</div>
+				<div class="column" style="background-color: #ED7D31; padding:10px 10px 10px 10px; margin-left: 10px">
+					<div class="row">
+						<p class="status-small">Tools Status</p>
+					</div>
+					<div class="row">
+						<div class="center aligned column"><h2 class="status-big">INCOMPLETE</h2></div>
+					</div>
+				</div>
+				<div class="column"></div>
+				<div class="column"></div>
+			</div>
+		</div>
+		<div class="aligned column" style="background-color: #228582; padding: 10px 10px 10px 10px">
+			<h3 class="status-big">Tools Tracking and Monitoring - Tool Categories in Used</h3>
+		</div>
+		<div class="ui five column≈ padded grid" style="background-color: white">
+			<div class="column center aligned">
+				<img class="tools-symbol" src="static/img/scalpel.png">
+				<h3>Scalpel</h3>
+				<h2 class="green">0</h2>
+			</div>
+			<div class="column center aligned">
+				<img class="tools-symbol" src="static/img/tweezers.png">
+				<h3>Tweezer</h3>
+				<h2 class="orange">1</h2>
+			</div>
+			<div class="column center aligned">
+				<img class="tools-symbol" src="static/img/tonsils-tester.png">
+				<h3>Tonsils</h3>
+				<h2 class="green">0</h2>
+			</div>
+			<div class="column center aligned">
+				<img class="tools-symbol" src="static/img/syringe.png">
+				<h3>Syringe</h3>
+				<h2 class="green">0</h2>
+			</div>
+			<div class="column center aligned">
+				<img class="tools-symbol" src="static/img/scissors.png">
+				<h3>Scissor</h3>
+				<h2 class="orange">1</h2>
+			</div>
+			<div class="column center aligned">
+				<img class="tools-symbol" src="static/img/mirror.png">
+				<h3>Mirror</h3>
+				<h2 class="green">0</h2>
+			</div>
+			<div class="column center aligned">
+				<img class="tools-symbol" src="static/img/hammer.png">
+				<h3>Hammer</h3>
+				<h2 class="green">0</h2>
+			</div>
+			<div class="column center aligned">
+				<img class="tools-symbol" src="static/img/otoscope.png">
+				<h3>Otoscope</h3>
+				<h2 class="green">0</h2>
+			</div>
+			<div class="column center aligned">
+				<img class="tools-symbol" src="static/img/medicine.png">
+				<h3>Others</h3>
+				<h2 class="green">0</h2>
+			</div>
+		</div>
+	</div>
+	<div class="five wide column">
+		<div class="ui grid">
+			<div class="eight wide column" style="width: 150px; background-color: #228582">
+				<p class="status-small" >Patient Profile</p>
+			</div>
+			<div class="eight wide column"></div>
+			<div class="content sixteen wide column" style="background-color: white">
+				<div class="row">
+					<img src="static/img/kristy.png" style="max-width: 150px">
+				</div>
+				<a href="" class="header">Kristy</a>
+				<div class="meta">
+					<span class="date">Patient no. 2019312-291</span>
+				</div>
+				<div class="ui grid description">
+					<div class="three wide column">
+						<b>Sex</b><br>
+						<b>D.o.B</b><br>
+						<b>Weight</b><br>
+						<b>City</b><br>
+					</div>
+					<div class="five wide column">
+						Female <br>
+						12/04/1988 <br>
+						75 kg <br>
+						Amsterdam <br>
+					</div>
+					<div class="four wide column">
+						<b>Age</b><br>
+						<b>Height</b><br>
+						<b>Nationality</b><br>
+					</div>
+					<div class="four wide column">
+						38 y.o. <br>
+						179 cm <br>
+						Dutch <br>
+					</div>						
+					<div class="eight wide column">
+						<b>Emergency contact</b>
+					</div>
+					<div class="eight wide column">
+						+31 6033 7845 
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="ui grid" style="margin-top: 30px">
+			<div class="eight wide column" style="width: 150px; background-color: #228582">
+				<p class="status-small" >Patient Profile</p>
+			</div>
+			<div class="eight wide column"></div>
+			<div class="fifteen wide column">
+				<img class="ui big image" src="{{ url_for('video_feed') }}" >
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+
+
+{% endblock %}
