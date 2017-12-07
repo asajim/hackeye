@@ -33,3 +33,10 @@ based on https://github.com/MaxHalford/flask-boilerplate
 
 ## Presentation for the demo
 - [Presentation](https://github.com/asajim/hackeye/blob/master/Pitching%20Deck-v1.pdf)
+
+## Collaborator
+- [Ade Setyawan Sajim](https://github.com/asajim)
+- [Bontor Humala](https://github.com/bontorhumala)
+- [Arif Nurhidayat](https://github.com/nurhidayat86)
+- [Priadi Teguh](https://github.com/priaditeguh)
+- Lina Afriana
