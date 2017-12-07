@@ -27,6 +27,8 @@ based on https://github.com/MaxHalford/flask-boilerplate
 
 	`python manage.py runserver`
 
+- If error, install missing dependencies using conda or pip
+
 - Navigate to `localhost:5000`.
 
 ## Presentation for the demo
