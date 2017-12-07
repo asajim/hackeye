@@ -28,3 +28,6 @@ based on https://github.com/MaxHalford/flask-boilerplate
 	`python manage.py runserver`
 
 - Navigate to `localhost:5000`.
+
+## Presentation for the demo
+- [Presentation](https://github.com/asajim/hackeye/blob/master/Pitching%20Deck-v1.pdf)
