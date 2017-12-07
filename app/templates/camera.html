@@ -1,0 +1,101 @@
+{% extends "layout.html" %}
+
+{% block head %}
+{{ super() }}
+{% endblock %}
+
+{% block content %}
+
+<div class="ui grid container">
+  <div class="eleven wide column">
+    <!-- <img class="ui centered   huge image" src="{{ url_for('video_feed') }}" style="margin-left: 15px" > -->
+    <div style="margin-top: 20px"></div>
+    <div class="ui four column grid" style="margin-left: 5px">
+      <div class="row" style="margin-bottom: 10px">
+        <div class="one width column" style="background-color: #228582; padding:10px 10px 10px 10px; margin-left: 13px">
+          <div class="row">
+            <p class="status-small">Operation Phase</p>
+          </div>
+          <div class="row">
+            <div class="center aligned column"><h2 class="status-big">ONGOING</h2></div>
+          </div>
+        </div>
+        <div class="one width column" style="background-color: #ED7D31; padding:10px 10px 10px 10px; margin-left: 10px">
+          <div class="row">
+            <p class="status-small">Tools Status</p>
+          </div>
+          <div class="row">
+            <div class="center aligned column"><h2 class="status-big">INCOMPLETE</h2></div>
+          </div>
+        </div>
+        <div class="two width column" style="background-color: white; margin-left: 10px">
+          <div class="row" style="margin-top: 10px">
+            <img src="static/img/kristy.png" style="max-width: 100px">
+            </div>
+            <div class="row">
+            <a href="" class="header">Kristy</a>
+            <div class="meta">
+              <span class="date">Patient no. 2019312-291</span>
+            </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="five wide column">
+    <div>
+      <div class="aligned column" style="background-color: #228582; padding: 10px 10px 10px 10px">
+        <h3 class="status-big" style="margin: 0">Tools Tracking and Monitoring - Tool Categories in Used</h3>
+      </div>
+      <div class="ui three column padded grid" style="background-color: white">
+        <div class="column center aligned">
+          <img class="tools-symbol-small" src="static/img/scalpel.png">
+          <h4>Scalpel</h4>
+          <h3 class="green">0</h2>
+          </div>
+          <div class="column center aligned">
+            <img class="tools-symbol-small" src="static/img/tweezers.png">
+            <h4>Tweezer</h4>
+            <h3 class="orange">1</h3>
+          </div>
+          <div class="column center aligned">
+            <img class="tools-symbol-small" src="static/img/tonsils-tester.png">
+            <h4>Tonsils</h4>
+            <h3 class="green">0</h3>
+          </div>
+          <div class="column center aligned">
+            <img class="tools-symbol-small" src="static/img/syringe.png">
+            <h4>Syringe</h4>
+            <h3 class="green">0</h3>
+          </div>
+          <div class="column center aligned">
+            <img class="tools-symbol-small" src="static/img/scissors.png">
+            <h4>Scissor</h4>
+            <h3 class="orange">1</h3>
+          </div>
+          <div class="column center aligned">
+            <img class="tools-symbol-small" src="static/img/mirror.png">
+            <h4>Mirror</h4>
+            <h3 class="green">0</h3>
+          </div>
+          <div class="column center aligned">
+            <img class="tools-symbol-small" src="static/img/hammer.png">
+            <h4>Hammer</h4>
+            <h3 class="green">0</h3>
+          </div>
+          <div class="column center aligned">
+            <img class="tools-symbol-small" src="static/img/otoscope.png">
+            <h4>Otoscope</h4>
+            <h3 class="green">0</h3>
+          </div>
+          <div class="column center aligned">
+            <img class="tools-symbol-small" src="static/img/medicine.png">
+            <h4>Others</h4>
+            <h3 class="green">0</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  {% endblock %}
